@@ -130,4 +130,5 @@ template <typename T>
 void Queue<T>::clear() {
     LinkedList::delete_all(this->_data);
     this->_data_back = NULL;
+    this->_size = 0;
 }
