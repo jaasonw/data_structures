@@ -49,8 +49,8 @@ public:
     void push(const T& item);
     T pop();
 
-    bool empty() const { return size == 0; };
-    int size() const { return size; };
+    bool empty() const { return _size == 0; };
+    int size() const { return _size; };
     void clear();
 
     T front() { return this->_data->_item; }

@@ -14,8 +14,8 @@ public:
     // returns the item at the top of the stack
     T top() { return this->_list.front(); }
     // returns whether the stack is empty
-    bool empty() { return this->_list.empty(); }
-    
+    bool empty() const { return this->_list.empty(); }
+    int size() const { return this->_list.size() }
     // clears the stack
     void clear() { this->_list.clear(); }
 
