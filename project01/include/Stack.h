@@ -15,6 +15,9 @@ public:
     T top() { return this->_list.front(); }
     // returns whether the stack is empty
     bool empty() { return this->_list.empty(); }
+    
+    // clears the stack
+    void clear() { this->_list.clear(); }
 
     friend std::ostream& operator<<(std::ostream& outs, const Stack& s) {
         return outs << s._list;

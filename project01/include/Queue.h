@@ -51,6 +51,7 @@ public:
 
     bool empty() const { return size == 0; };
     int size() const { return size; };
+    void clear();
 
     T front() { return this->_data->_item; }
     T back() { return this->_data_back->_item; }
@@ -122,4 +123,11 @@ typename Queue<T>::Iterator Queue<T>::it_begin() const {
 template <typename T>
 typename Queue<T>::Iterator Queue<T>::it_end() const {
     return Queue<T>::Iterator(NULL);
+}
+
+// clears the queue
+template <typename T>
+void Queue<T>::clear() {
+    LinkedList::delete_all(this->_data);
+    this->_data_back = NULL;
 }

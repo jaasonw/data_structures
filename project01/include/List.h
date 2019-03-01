@@ -55,6 +55,7 @@ public:
 
     bool empty() const { return size == 0; };
     int size() const { return size; };
+    void clear();
 
     T front() { return this->_data->_item; }
     T back() { return this->_data_back->_item; }
@@ -180,4 +181,11 @@ void List<T>::insert_after(Iterator pos, const T& item) {
 template <typename T>
 void List<T>::insert_after(Node<T>* pos, const T& item) {
     LinkedList::insert_after(this->_data, pos, item);
+}
+
+// clears the list
+template <typename T>
+void List<T>::clear() {
+    LinkedList::delete_all(this->_data);
+    this->_data_back = NULL;
 }
