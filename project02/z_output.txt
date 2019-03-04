@@ -1,0 +1,192 @@
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+131 landed
+52 took off
+0 crashed. :(
+Average waiting time to land: 7.9313
+Average waiting time to take off: 366.192
+Planes in landing queue: 2
+Planes in take off queue: 46
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+144 landed
+47 took off
+4 crashed. :(
+Average waiting time to land: 9.15278
+Average waiting time to take off: 343.383
+Planes in landing queue: 0
+Planes in take off queue: 57
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+164 landed
+42 took off
+1 crashed. :(
+Average waiting time to land: 8.79878
+Average waiting time to take off: 487.976
+Planes in landing queue: 0
+Planes in take off queue: 76
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+149 landed
+47 took off
+3 crashed. :(
+Average waiting time to land: 8.65101
+Average waiting time to take off: 470.681
+Planes in landing queue: 1
+Planes in take off queue: 71
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+125 landed
+55 took off
+0 crashed. :(
+Average waiting time to land: 7.496
+Average waiting time to take off: 432.764
+Planes in landing queue: 1
+Planes in take off queue: 65
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+159 landed
+43 took off
+0 crashed. :(
+Average waiting time to land: 8.84906
+Average waiting time to take off: 312.535
+Planes in landing queue: 0
+Planes in take off queue: 56
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+120 landed
+56 took off
+0 crashed. :(
+Average waiting time to land: 8.175
+Average waiting time to take off: 436.75
+Planes in landing queue: 2
+Planes in take off queue: 73
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+143 landed
+48 took off
+0 crashed. :(
+Average waiting time to land: 7.73427
+Average waiting time to take off: 376.354
+Planes in landing queue: 0
+Planes in take off queue: 73
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+125 landed
+54 took off
+0 crashed. :(
+Average waiting time to land: 8.496
+Average waiting time to take off: 416.056
+Planes in landing queue: 2
+Planes in take off queue: 49
+============================================
+
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+153 landed
+45 took off
+1 crashed. :(
+Average waiting time to land: 9.13072
+Average waiting time to take off: 411.022
+Planes in landing queue: 0
+Planes in take off queue: 55
+============================================
+
+
+Press any key to continue . . .

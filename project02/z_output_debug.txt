@@ -1,0 +1,457 @@
+Plane added to landing queue with timestamp: 9
+Plane landing with timestamp: 0
+Plane added to landing queue with timestamp: 10
+Plane added to landing queue with timestamp: 13
+Plane added to landing queue with timestamp: 14
+Plane landing with timestamp: 0
+Plane added to landing queue with timestamp: 18
+Plane landing with timestamp: 0
+Plane added to landing queue with timestamp: 21
+Plane added to take off queue with timestamp: 24
+Plane landing with timestamp: 9
+Plane landing with timestamp: 10
+Plane added to take off queue with timestamp: 32
+Plane crashed, skipping
+Plane landing with timestamp: 14
+Plane added to landing queue with timestamp: 35
+Plane added to landing queue with timestamp: 37
+Plane added to take off queue with timestamp: 37
+Plane crashed, skipping
+Plane landing with timestamp: 21
+Plane landing with timestamp: 35
+Plane added to landing queue with timestamp: 46
+Plane added to take off queue with timestamp: 48
+Plane landing with timestamp: 37
+Plane landing with timestamp: 46
+Plane taking off with timestamp: 24
+Plane added to take off queue with timestamp: 65
+Plane added to landing queue with timestamp: 74
+Plane landing with timestamp: 74
+Plane taking off with timestamp: 32
+Plane added to take off queue with timestamp: 80
+Plane added to landing queue with timestamp: 83
+Plane added to take off queue with timestamp: 85
+Plane added to take off queue with timestamp: 86
+Plane landing with timestamp: 83
+Plane added to landing queue with timestamp: 97
+Plane landing with timestamp: 97
+Plane added to take off queue with timestamp: 104
+Plane taking off with timestamp: 37
+Plane added to take off queue with timestamp: 107
+Plane added to landing queue with timestamp: 113
+Plane landing with timestamp: 113
+Plane taking off with timestamp: 48
+Plane taking off with timestamp: 65
+Plane taking off with timestamp: 80
+Plane added to landing queue with timestamp: 155
+Plane added to take off queue with timestamp: 167
+Plane added to landing queue with timestamp: 168
+Plane added to take off queue with timestamp: 169
+Plane landing with timestamp: 155
+Plane added to take off queue with timestamp: 172
+Plane landing with timestamp: 168
+Plane added to landing queue with timestamp: 176
+Plane landing with timestamp: 176
+Plane added to landing queue with timestamp: 182
+Plane added to take off queue with timestamp: 184
+Plane landing with timestamp: 182
+Plane taking off with timestamp: 85
+Plane added to landing queue with timestamp: 192
+Plane landing with timestamp: 192
+Plane added to landing queue with timestamp: 205
+Plane added to landing queue with timestamp: 208
+Plane landing with timestamp: 205
+Plane added to take off queue with timestamp: 211
+Plane landing with timestamp: 208
+Plane taking off with timestamp: 86
+Plane added to landing queue with timestamp: 221
+Plane added to landing queue with timestamp: 226
+Plane added to landing queue with timestamp: 229
+Plane landing with timestamp: 221
+Plane landing with timestamp: 226
+Plane landing with timestamp: 229
+Plane added to landing queue with timestamp: 246
+Plane added to take off queue with timestamp: 247
+Plane landing with timestamp: 246
+Plane taking off with timestamp: 104
+Plane added to landing queue with timestamp: 261
+Plane landing with timestamp: 261
+Plane added to take off queue with timestamp: 274
+Plane taking off with timestamp: 107
+Plane added to landing queue with timestamp: 280
+Plane added to take off queue with timestamp: 283
+Plane added to take off queue with timestamp: 286
+Plane landing with timestamp: 280
+Plane added to landing queue with timestamp: 294
+Plane landing with timestamp: 294
+Plane added to landing queue with timestamp: 295
+Plane landing with timestamp: 295
+Plane taking off with timestamp: 167
+Plane added to take off queue with timestamp: 306
+Plane added to landing queue with timestamp: 307
+Plane added to take off queue with timestamp: 307
+Plane added to landing queue with timestamp: 309
+Plane added to landing queue with timestamp: 310
+Plane added to landing queue with timestamp: 312
+Plane added to take off queue with timestamp: 316
+Plane added to take off queue with timestamp: 317
+Plane landing with timestamp: 307
+Plane added to take off queue with timestamp: 321
+Plane landing with timestamp: 309
+Plane added to take off queue with timestamp: 329
+Plane landing with timestamp: 310
+Plane added to landing queue with timestamp: 332
+Plane added to take off queue with timestamp: 333
+Plane crashed, skipping
+Plane landing with timestamp: 332
+Plane taking off with timestamp: 169
+Plane taking off with timestamp: 172
+Plane added to take off queue with timestamp: 359
+Plane added to landing queue with timestamp: 362
+Plane added to take off queue with timestamp: 366
+Plane landing with timestamp: 362
+Plane added to take off queue with timestamp: 374
+Plane taking off with timestamp: 184
+Plane added to landing queue with timestamp: 377
+Plane added to landing queue with timestamp: 381
+Plane added to landing queue with timestamp: 382
+Plane added to take off queue with timestamp: 384
+Plane added to landing queue with timestamp: 386
+Plane added to take off queue with timestamp: 386
+Plane landing with timestamp: 377
+Plane landing with timestamp: 381
+Plane added to take off queue with timestamp: 396
+Plane added to landing queue with timestamp: 398
+Plane landing with timestamp: 382
+Plane landing with timestamp: 386
+Plane added to landing queue with timestamp: 406
+Plane added to take off queue with timestamp: 406
+Plane added to take off queue with timestamp: 407
+Plane landing with timestamp: 398
+Plane landing with timestamp: 406
+Plane added to take off queue with timestamp: 415
+Plane added to landing queue with timestamp: 418
+Plane added to take off queue with timestamp: 418
+Plane landing with timestamp: 418
+Plane added to landing queue with timestamp: 422
+Plane added to landing queue with timestamp: 423
+Plane added to take off queue with timestamp: 424
+Plane landing with timestamp: 422
+Plane landing with timestamp: 423
+Plane added to take off queue with timestamp: 432
+Plane taking off with timestamp: 211
+Plane added to landing queue with timestamp: 445
+Plane landing with timestamp: 445
+Plane taking off with timestamp: 247
+Plane added to landing queue with timestamp: 466
+Plane landing with timestamp: 466
+Plane added to landing queue with timestamp: 471
+Plane added to landing queue with timestamp: 472
+Plane added to landing queue with timestamp: 473
+Plane landing with timestamp: 471
+Plane added to take off queue with timestamp: 479
+Plane landing with timestamp: 472
+Plane added to take off queue with timestamp: 482
+Plane landing with timestamp: 473
+Plane added to landing queue with timestamp: 485
+Plane added to landing queue with timestamp: 487
+Plane landing with timestamp: 485
+Plane added to landing queue with timestamp: 494
+Plane landing with timestamp: 487
+Plane added to landing queue with timestamp: 499
+Plane landing with timestamp: 494
+Plane added to take off queue with timestamp: 501
+Plane landing with timestamp: 499
+Plane added to landing queue with timestamp: 508
+Plane landing with timestamp: 508
+Plane added to take off queue with timestamp: 511
+Plane added to take off queue with timestamp: 512
+Plane added to take off queue with timestamp: 513
+Plane added to landing queue with timestamp: 514
+Plane landing with timestamp: 514
+Plane taking off with timestamp: 274
+Plane added to take off queue with timestamp: 521
+Plane added to landing queue with timestamp: 533
+Plane landing with timestamp: 533
+Plane added to landing queue with timestamp: 535
+Plane landing with timestamp: 535
+Plane added to take off queue with timestamp: 542
+Plane taking off with timestamp: 283
+Plane added to take off queue with timestamp: 546
+Plane added to landing queue with timestamp: 554
+Plane added to take off queue with timestamp: 557
+Plane added to take off queue with timestamp: 559
+Plane landing with timestamp: 554
+Plane added to take off queue with timestamp: 560
+Plane added to take off queue with timestamp: 563
+Plane added to take off queue with timestamp: 564
+Plane taking off with timestamp: 286
+Plane added to take off queue with timestamp: 567
+Plane taking off with timestamp: 306
+Plane added to landing queue with timestamp: 591
+Plane landing with timestamp: 591
+Plane added to take off queue with timestamp: 598
+Plane taking off with timestamp: 307
+Plane taking off with timestamp: 316
+Plane added to take off queue with timestamp: 617
+Plane added to take off queue with timestamp: 629
+Plane taking off with timestamp: 317
+Plane added to take off queue with timestamp: 633
+Plane taking off with timestamp: 321
+Plane added to landing queue with timestamp: 647
+Plane added to take off queue with timestamp: 653
+Plane added to take off queue with timestamp: 656
+Plane landing with timestamp: 647
+Plane added to landing queue with timestamp: 661
+Plane added to take off queue with timestamp: 664
+Plane landing with timestamp: 661
+Plane added to landing queue with timestamp: 665
+Plane added to take off queue with timestamp: 666
+Plane landing with timestamp: 665
+Plane taking off with timestamp: 329
+Plane added to take off queue with timestamp: 676
+Plane added to take off queue with timestamp: 679
+Plane taking off with timestamp: 333
+Plane added to take off queue with timestamp: 695
+Plane added to landing queue with timestamp: 700
+Plane added to take off queue with timestamp: 700
+Plane landing with timestamp: 700
+Plane added to take off queue with timestamp: 708
+Plane taking off with timestamp: 359
+Plane added to landing queue with timestamp: 713
+Plane added to take off queue with timestamp: 713
+Plane added to landing queue with timestamp: 717
+Plane landing with timestamp: 713
+Plane landing with timestamp: 717
+Plane added to take off queue with timestamp: 733
+Plane taking off with timestamp: 366
+Plane added to take off queue with timestamp: 737
+Plane added to landing queue with timestamp: 738
+Plane added to take off queue with timestamp: 744
+Plane added to landing queue with timestamp: 748
+Plane added to take off queue with timestamp: 749
+Plane landing with timestamp: 738
+Plane landing with timestamp: 748
+Plane taking off with timestamp: 374
+Plane added to take off queue with timestamp: 761
+Plane added to landing queue with timestamp: 770
+Plane added to landing queue with timestamp: 771
+Plane added to landing queue with timestamp: 773
+Plane landing with timestamp: 770
+Plane landing with timestamp: 771
+Plane landing with timestamp: 773
+Plane added to landing queue with timestamp: 787
+Plane added to take off queue with timestamp: 788
+Plane landing with timestamp: 787
+Plane added to landing queue with timestamp: 792
+Plane added to take off queue with timestamp: 794
+Plane landing with timestamp: 792
+Plane added to landing queue with timestamp: 797
+Plane landing with timestamp: 797
+Plane added to take off queue with timestamp: 804
+Plane taking off with timestamp: 384
+Plane added to landing queue with timestamp: 806
+Plane landing with timestamp: 806
+Plane added to landing queue with timestamp: 823
+Plane landing with timestamp: 823
+Plane added to landing queue with timestamp: 825
+Plane landing with timestamp: 825
+Plane taking off with timestamp: 386
+Plane added to take off queue with timestamp: 839
+Plane added to take off queue with timestamp: 842
+Plane added to take off queue with timestamp: 843
+Plane added to take off queue with timestamp: 847
+Plane taking off with timestamp: 396
+Plane added to landing queue with timestamp: 864
+Plane landing with timestamp: 864
+Plane added to landing queue with timestamp: 867
+Plane added to take off queue with timestamp: 867
+Plane landing with timestamp: 867
+Plane added to landing queue with timestamp: 871
+Plane added to landing queue with timestamp: 872
+Plane landing with timestamp: 871
+Plane added to landing queue with timestamp: 878
+Plane landing with timestamp: 872
+Plane landing with timestamp: 878
+Plane taking off with timestamp: 406
+Plane added to landing queue with timestamp: 896
+Plane added to landing queue with timestamp: 897
+Plane added to take off queue with timestamp: 897
+Plane added to take off queue with timestamp: 904
+Plane landing with timestamp: 896
+Plane landing with timestamp: 897
+Plane added to take off queue with timestamp: 912
+Plane taking off with timestamp: 407
+Plane added to landing queue with timestamp: 915
+Plane landing with timestamp: 915
+Plane added to landing queue with timestamp: 930
+Plane added to take off queue with timestamp: 930
+Plane added to landing queue with timestamp: 933
+Plane landing with timestamp: 930
+Plane landing with timestamp: 933
+Plane taking off with timestamp: 415
+Plane added to take off queue with timestamp: 945
+Plane added to take off queue with timestamp: 946
+Plane added to take off queue with timestamp: 948
+Plane added to landing queue with timestamp: 956
+Plane added to landing queue with timestamp: 958
+Plane added to take off queue with timestamp: 959
+Plane landing with timestamp: 956
+Plane added to take off queue with timestamp: 962
+Plane landing with timestamp: 958
+Plane added to take off queue with timestamp: 966
+Plane taking off with timestamp: 418
+Plane added to landing queue with timestamp: 972
+Plane added to landing queue with timestamp: 983
+Plane landing with timestamp: 972
+Plane added to landing queue with timestamp: 987
+Plane added to take off queue with timestamp: 987
+Plane landing with timestamp: 983
+Plane added to landing queue with timestamp: 990
+Plane landing with timestamp: 987
+Plane landing with timestamp: 990
+Plane taking off with timestamp: 424
+Plane added to landing queue with timestamp: 1012
+Plane added to take off queue with timestamp: 1019
+Plane landing with timestamp: 1012
+Plane added to take off queue with timestamp: 1020
+Plane added to landing queue with timestamp: 1024
+Plane landing with timestamp: 1024
+Plane taking off with timestamp: 432
+Plane added to landing queue with timestamp: 1032
+Plane added to landing queue with timestamp: 1042
+Plane landing with timestamp: 1032
+Plane landing with timestamp: 1042
+Plane added to take off queue with timestamp: 1050
+Plane added to landing queue with timestamp: 1051
+Plane landing with timestamp: 1051
+Plane taking off with timestamp: 479
+Plane added to take off queue with timestamp: 1063
+Plane added to landing queue with timestamp: 1065
+Plane landing with timestamp: 1065
+Plane added to landing queue with timestamp: 1078
+Plane landing with timestamp: 1078
+Plane added to take off queue with timestamp: 1084
+Plane taking off with timestamp: 482
+Plane added to take off queue with timestamp: 1093
+Plane added to landing queue with timestamp: 1095
+Plane added to take off queue with timestamp: 1095
+Plane added to take off queue with timestamp: 1097
+Plane added to landing queue with timestamp: 1099
+Plane landing with timestamp: 1095
+Plane added to take off queue with timestamp: 1103
+Plane landing with timestamp: 1099
+Plane added to landing queue with timestamp: 1109
+Plane landing with timestamp: 1109
+Plane taking off with timestamp: 501
+Plane taking off with timestamp: 511
+Plane taking off with timestamp: 512
+Plane added to take off queue with timestamp: 1148
+Plane added to landing queue with timestamp: 1149
+Plane added to landing queue with timestamp: 1155
+Plane added to landing queue with timestamp: 1158
+Plane landing with timestamp: 1149
+Plane added to landing queue with timestamp: 1164
+Plane landing with timestamp: 1155
+Plane added to landing queue with timestamp: 1166
+Plane landing with timestamp: 1158
+Plane added to landing queue with timestamp: 1174
+Plane landing with timestamp: 1164
+Plane added to landing queue with timestamp: 1175
+Plane added to take off queue with timestamp: 1179
+Plane landing with timestamp: 1166
+Plane landing with timestamp: 1174
+Plane landing with timestamp: 1175
+Plane taking off with timestamp: 513
+Plane added to landing queue with timestamp: 1199
+Plane added to landing queue with timestamp: 1204
+Plane added to landing queue with timestamp: 1207
+Plane landing with timestamp: 1199
+Plane landing with timestamp: 1204
+Plane added to landing queue with timestamp: 1217
+Plane landing with timestamp: 1207
+Plane landing with timestamp: 1217
+Plane added to take off queue with timestamp: 1228
+Plane added to landing queue with timestamp: 1229
+Plane landing with timestamp: 1229
+Plane taking off with timestamp: 521
+Plane added to take off queue with timestamp: 1241
+Plane added to landing queue with timestamp: 1247
+Plane landing with timestamp: 1247
+Plane added to landing queue with timestamp: 1251
+Plane added to landing queue with timestamp: 1252
+Plane landing with timestamp: 1251
+Plane landing with timestamp: 1252
+Plane added to take off queue with timestamp: 1260
+Plane added to take off queue with timestamp: 1264
+Plane taking off with timestamp: 542
+Plane added to take off queue with timestamp: 1278
+Plane taking off with timestamp: 546
+Plane taking off with timestamp: 557
+Plane added to landing queue with timestamp: 1295
+Plane added to take off queue with timestamp: 1295
+Plane added to landing queue with timestamp: 1297
+Plane added to take off queue with timestamp: 1300
+Plane added to landing queue with timestamp: 1302
+Plane added to landing queue with timestamp: 1309
+Plane landing with timestamp: 1295
+Plane landing with timestamp: 1297
+Plane added to landing queue with timestamp: 1318
+Plane landing with timestamp: 1302
+Plane added to take off queue with timestamp: 1320
+Plane landing with timestamp: 1309
+Plane landing with timestamp: 1318
+Plane added to take off queue with timestamp: 1334
+Plane taking off with timestamp: 559
+Plane added to landing queue with timestamp: 1337
+Plane added to take off queue with timestamp: 1344
+Plane landing with timestamp: 1337
+Plane added to landing queue with timestamp: 1353
+Plane landing with timestamp: 1353
+Plane added to landing queue with timestamp: 1356
+Plane landing with timestamp: 1356
+Plane added to landing queue with timestamp: 1360
+Plane landing with timestamp: 1360
+Plane added to landing queue with timestamp: 1365
+Plane added to take off queue with timestamp: 1365
+Plane added to landing queue with timestamp: 1366
+Plane landing with timestamp: 1365
+Plane landing with timestamp: 1366
+Plane taking off with timestamp: 560
+Plane added to landing queue with timestamp: 1387
+Plane landing with timestamp: 1387
+Plane taking off with timestamp: 563
+Plane added to take off queue with timestamp: 1411
+Plane added to landing queue with timestamp: 1413
+Plane landing with timestamp: 1413
+Plane taking off with timestamp: 564
+Plane added to take off queue with timestamp: 1421
+Plane added to take off queue with timestamp: 1422
+Plane added to landing queue with timestamp: 1423
+Plane added to landing queue with timestamp: 1425
+Plane added to landing queue with timestamp: 1429
+Plane added to landing queue with timestamp: 1434
+Plane landing with timestamp: 1423
+Plane added to take off queue with timestamp: 1437
+Plane landing with timestamp: 1425
+============================================
+time to take off        : 15
+time to land            : 5
+probability of landing  : 0.1
+probability of takeoff  : 0.08
+fuel: time to crash     : 20
+total simulation time   : 1440
+
+
+. . . . . . . . . . . . . . . . . . . . . . .
+131 landed
+52 took off
+3 crashed. :(
+Average waiting time to land: 7.70992
+Average waiting time to take off: 396.269
+Planes in landing queue: 2
+Planes in take off queue: 65
+============================================
+
+
+Press any key to continue . . .
