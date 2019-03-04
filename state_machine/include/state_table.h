@@ -1,4 +1,6 @@
 #pragma once
+// Utilities for creating the a state table for the state machine
+
 namespace state_machine {
     const int MAX_COLUMNS = 255;
     const int NUM_ROWS = 30;
