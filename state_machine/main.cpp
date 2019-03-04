@@ -13,9 +13,9 @@ int main(int argc, char const* argv[]) {
     state_machine::mark_success(table, 3);
 
     state_machine::mark_cells(0, table, DIGITS, 1);   // state [0] --- DIGITS ---> [1]
-    state_machine::mark_cell(0, table, '.', 2); // state [0] --- '.' ------> [2]
+    state_machine::mark_cell(0, table, '.', 2);       // state [0] --- '.' ------> [2]
     state_machine::mark_cells(1, table, DIGITS, 1);   // state [1] --- DIGITS ---> [1]
-    state_machine::mark_cell(1, table, '.', 2); // state [1] --- '.' ------> [2]
+    state_machine::mark_cell(1, table, '.', 2);       // state [1] --- '.' ------> [2]
     state_machine::mark_cells(2, table, DIGITS, 3);   // state [2] --- DIGITS ---> [3]
     state_machine::mark_cells(3, table, DIGITS, 3);   // state [3] --- DIGITS ---> [3]
 
