@@ -76,6 +76,6 @@ namespace state_machine {
             }
             ++_pos;
         }
-    return state == -1;
-}
+        return state == -1;
+    }
 }
