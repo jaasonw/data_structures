@@ -2,41 +2,52 @@
 import os
 import time
 
-try:
-    os.remove('a.exe')
-except:
-    pass
+COMPILER = "g++"
+EXECUTABLE = "a.exe"
 
-includes = []
-includes.append("include")
+INCLUDES = []
+SOURCES = []
+LINK = []
+FLAGS = []
 
-sources = []
-sources.append("src")
+INCLUDES.append("include")
 
-link = []
+SOURCES.append("src")
 
+FLAGS.append("-std=c++11")
+FLAGS.append("-Wall")
+FLAGS.append("-Wextra")
+FLAGS.append("-g")
 
-flags = "-std=c++11 -Wall -Wfatal-errors -g"
+# for some reason clang wont compile unless in c++17 mode and with these flags
+if COMPILER == "clang++":
+    FLAGS.append("-std=c++17")
+    FLAGS.append("-Xclang -flto-visibility-public-std")
 
-compiler = "g++"
-
-output = "a.exe"
+flag_str = ""
+for f in FLAGS:
+    flag_str += f + " "
 
 include_str = ""
-for directory in includes:
+for directory in INCLUDES:
     include_str += f"-I\"{directory}/\" "
 
 sources_str = ""
-for src in sources:
+for src in SOURCES:
     for _file in os.listdir(src):
-        if (not os.path.isdir(f"{src}/{_file} ")):
+        if (not os.path.isdir(os.path.join(src, _file))):
             sources_str += f"{src}/{_file} "
 
 link_str = ""
-for l in link:
-    sources_str += f"-l{l} "
+for l in LINK:
+    link_str += f"-l{l} "
 
-cmd = f"{compiler} {flags} {include_str} -o {output} main.cpp {sources_str}"
+try:
+    os.remove(EXECUTABLE)
+except:
+    pass
+
+cmd = f"{COMPILER} {flag_str} {include_str} -o {EXECUTABLE} main.cpp {sources_str} {link_str}"
 print(cmd)
 t1 = time.time()
 os.system(cmd)
