@@ -1,4 +1,4 @@
-#include "state_table.h"
+#include "include/state_machine/state_table.h"
 #include <iostream>
 
 namespace state_machine {
@@ -67,7 +67,7 @@ namespace state_machine {
         std::cout << "pos: " << _pos;
     }
 
-    bool get_token(const char* str, int& pos, int table[][MAX_COLUMNS], int state) {
+    bool get_token(const char* str, int& pos, int table[][MAX_COLUMNS], int& state) {
         int _pos = pos;
         while (str[_pos] != '\0' && state != -1) {
             state = table[state][str[_pos]];

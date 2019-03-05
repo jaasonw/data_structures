@@ -34,6 +34,7 @@ namespace state_machine {
     //       ^
     void show_string(const char* s, int _pos);
 
+    // returns true if a valid token was found, sets the pos to the last valid
     // 
-    bool get_token(const char* str, int& pos, int table[][MAX_COLUMNS], int state);
+    bool get_token(const char* str, int& pos, int table[][MAX_COLUMNS], int& state);
 }
