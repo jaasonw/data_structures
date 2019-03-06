@@ -12,8 +12,8 @@ STokenizer::STokenizer(char* str) : pos(0), state(0) {
 void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     const char* ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     const char* NUMBERS = "1234567890";
-    const char* PUNCTUATION = ".?!;\"\'()[]{}-—/\\";
-    const char* WHITESPACE = " ";
+    const char* PUNCTUATION = "\\.?!;\"'()[]{}-/";
+    const char* WHITESPACE = " \t";
 
     state_machine::init_table(state_table);
 
@@ -28,6 +28,7 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_success(state_table,    7);
     state_machine::mark_fail(state_table,       8);
     state_machine::mark_success(state_table,    9);
+    state_machine::mark_success(state_table,    10);
 
     // mark alphabet
     state_machine::mark_cells(0, state_table, ALPHA, 1);
@@ -50,6 +51,8 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_cells(2, state_table, NUMBERS, -1);
     state_machine::mark_cells(3, state_table, NUMBERS, 3);
     state_machine::mark_cells(4, state_table, NUMBERS, 3);
+    // ...
+    state_machine::mark_cells(10, state_table, NUMBERS, 10);
 
     // mark punctuation
     state_machine::mark_cells(0, state_table, PUNCTUATION, 5);
@@ -58,7 +61,7 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_cell(0, state_table, '.', 5);
     state_machine::mark_cell(1, state_table, '.', -1);
     state_machine::mark_cell(2, state_table, '.', -1);
-    state_machine::mark_cell(3, state_table, '.', 4);
+    state_machine::mark_cell(3, state_table, '.', 10);
     state_machine::mark_cell(4, state_table, '.', -1);
     state_machine::mark_cell(5, state_table, '.', 8);
     state_machine::mark_cell(6, state_table, '.', -1);
