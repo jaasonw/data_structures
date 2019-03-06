@@ -6,7 +6,9 @@ using namespace std;
 
 int main(int argc, char const* argv[]) {
     STokenizer s;
-    s.set_string("The quick brown fox jumped over the lazy dog 55");
+    // s.set_string("The quick brown fox jumped over the lazy dog");
+    s.set_string("don\'t...{55.6565}");
+    s.set_string("it was the night of october 17th. pi was still 3.14.");
 
     while (!s.done()) {
         Token t;
