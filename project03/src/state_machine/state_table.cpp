@@ -1,4 +1,4 @@
-#include "state_table.h"
+#include "state_machine/state_table.h"
 #include <iostream>
 
 namespace state_machine {
@@ -67,6 +67,8 @@ namespace state_machine {
         std::cout << "pos: " << _pos;
     }
 
+    // returns true if a valid token was found and moves the position to the
+    // the end of the last valid token
     bool get_token(const char* str, int& pos, int table[][MAX_COLUMNS], int& state) {
         int _pos = pos;
         while (str[_pos] != '\0' && state != -1) {
