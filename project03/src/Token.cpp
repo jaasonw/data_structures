@@ -22,6 +22,5 @@ std::string Token::type_string() const {
     }
 }
 std::ostream& operator<<(std::ostream& outs, const Token& t) {
-    return outs << std::setw(10) << std::left << '|' + t.token_str() + '|' << " "
-                << t.type_string();
+    return outs << t._token;
 }
