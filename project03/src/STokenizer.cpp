@@ -13,7 +13,7 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     const char* ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     const char* NUMBERS = "1234567890";
     const char* PUNCTUATION = ".?!;\"\'()[]{}-—/\\";
-    const char* WHITESPACE = " \t";
+    const char* WHITESPACE = " ";
 
     state_machine::init_table(state_table);
 
