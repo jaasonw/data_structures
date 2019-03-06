@@ -13,17 +13,17 @@ namespace state_machine {
     
     // Mark this state (row) with a 1 (success)
     void mark_success(int _table[][MAX_COLUMNS], int state) {
-        _table[0][state] = 1;
+        _table[state][0] = 1;
     }
     
     // Mark this state (row) with a 0 (fail)
     void mark_fail(int _table[][MAX_COLUMNS], int state) {
-        _table[0][state] = 0;
+        _table[state][0] = 0;
     }
 
     // true if state is a success state
     bool is_success(int _table[][MAX_COLUMNS], int state) {
-        return _table[0][state] == 1;
+        return _table[state][0] == 1;
     }
 
     // Mark a range of cells in the array.
@@ -71,13 +71,15 @@ namespace state_machine {
     // the end of the last valid token
     bool get_token(const char* str, int& pos, int table[][MAX_COLUMNS], int& state) {
         int _pos = pos;
+        bool token_found = false;
         while (str[_pos] != '\0' && state != -1) {
             state = table[state][str[_pos]];
             if (is_success(table, state)) {
                 pos = _pos;
+                token_found = true;
             }
             ++_pos;
         }
-        return state == -1;
+        return token_found;
     }
 }
