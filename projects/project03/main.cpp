@@ -1,3 +1,10 @@
+/*
+ * Author: Jason Wong
+ * Project: String Tokenizer
+ * Purpose: Create a string tokenizer that returns a single token from an input
+ *          string based on the rules set by the internal state machine
+ * Notes:
+ */
 #include "STokenizer.h"
 #include "Token.h"
 #include <iomanip>
