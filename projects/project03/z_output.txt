@@ -1,0 +1,55 @@
+ALPHA               |What|
+SPACE               | |
+ALPHA               |the|
+SPACE               | |
+ALPHA               |uwu|
+SPACE               | |
+ALPHA               |did|
+SPACE               | |
+ALPHA               |you|
+SPACE               | |
+ALPHA               |just|
+SPACE               | |
+ALPHA               |uwu|
+SPACE               | |
+ALPHA               |say|
+SPACE               | |
+ALPHA               |about|
+SPACE               | |
+ALPHA               |me|
+PUNCTUATION         |,|
+SPACE               | |
+ALPHA               |you|
+SPACE               | |
+ALPHA               |little|
+SPACE               | |
+ALPHA               |uwu|
+PUNCTUATION         |?|
+SPACE               | |
+ALPHA               |I'll|
+SPACE               | |
+ALPHA               |have|
+SPACE               | |
+ALPHA               |you|
+SPACE               | |
+ALPHA               |know|
+SPACE               | |
+ALPHA               |I|
+SPACE               | |
+ALPHA               |uwu|
+SPACE               | |
+ALPHA               |top|
+SPACE               | |
+ALPHA               |of|
+SPACE               | |
+ALPHA               |my|
+SPACE               | |
+ALPHA               |class|
+SPACE               | |
+ALPHA               |in|
+SPACE               | |
+ALPHA               |the|
+SPACE               | |
+ALPHA               |uwu|
+
+Press any key to continue . . .

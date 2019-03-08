@@ -13,12 +13,13 @@
 using namespace std;
 
 int main(int argc, char const* argv[]) {
-    STokenizer s;
-    s.set_string("...it...was the night of october 17th. pi was still.3.14.");
+    // STokenizer s1("...it...was the night of october 17th. pi was still.3.14.");
+    STokenizer s2("What the uwu did you just uwu say about me, you little uwu? "
+                  "I'll have you know I uwu top of my class in the uwu");
 
-    while (!s.done()) {
+    while (!s2.done()) {
         Token t;
-        s >> t;
+        s2 >> t;
         cout << setw(20) << left << t.type_string() << '|' << t << '|' << endl;
     }
 
