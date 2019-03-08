@@ -15,6 +15,7 @@ std::string Token::type_string() const {
         case 10:
             return "NUMBER";
         case 5:
+        case 6:
             return "PUNCTUATION";
         case 9:
             return "ELLIPSIS";

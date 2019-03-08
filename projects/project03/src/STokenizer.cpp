@@ -29,7 +29,6 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_fail(state_table,       8);
     state_machine::mark_success(state_table,    9);
     state_machine::mark_success(state_table,    10);
-    state_machine::mark_success(state_table,    11);
 
     // mark alphabet
     state_machine::mark_cells(0, state_table, ALPHA, 1);
@@ -38,8 +37,7 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_cells(3, state_table, ALPHA, -1);
     state_machine::mark_cells(4, state_table, ALPHA, -1);
     state_machine::mark_cells(5, state_table, ALPHA, -1);
-    state_machine::mark_cells(6, state_table, ALPHA, 7);
-    state_machine::mark_cells(7, state_table, ALPHA, 11);
+    state_machine::mark_cells(6, state_table, ALPHA, 1);
     
     // mark spaces
     state_machine::mark_cells(0, state_table, WHITESPACE, 2);
@@ -70,7 +68,7 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_cell(8, state_table, '.', 9);
 
     // mark apostrophe cases
-    state_machine::mark_cell(0, state_table, '\'', 5);
+    state_machine::mark_cell(0, state_table, '\'', 6);
     state_machine::mark_cell(1, state_table, '\'', 6);
 }
 
