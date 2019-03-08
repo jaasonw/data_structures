@@ -38,7 +38,7 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_cells(4, state_table, ALPHA, -1);
     state_machine::mark_cells(5, state_table, ALPHA, -1);
     state_machine::mark_cells(6, state_table, ALPHA, 7);
-    state_machine::mark_cells(7, state_table, ALPHA, -1);
+    state_machine::mark_cells(7, state_table, ALPHA, 7);
     
     // mark spaces
     state_machine::mark_cells(0, state_table, WHITESPACE, 2);
