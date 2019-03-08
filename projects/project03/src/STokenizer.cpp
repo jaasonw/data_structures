@@ -18,17 +18,18 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::init_table(state_table);
 
     // define successs states
-    state_machine::mark_fail(state_table,       0);
-    state_machine::mark_success(state_table,    1);
-    state_machine::mark_success(state_table,    2);
-    state_machine::mark_success(state_table,    3);
-    state_machine::mark_fail(state_table,       4);
-    state_machine::mark_success(state_table,    5);
-    state_machine::mark_fail(state_table,       6);
-    state_machine::mark_success(state_table,    7);
-    state_machine::mark_fail(state_table,       8);
-    state_machine::mark_success(state_table,    9);
-    state_machine::mark_success(state_table,    10);
+    state_machine::mark_fail(state_table, 0);
+    state_machine::mark_success(state_table, 1);
+    state_machine::mark_success(state_table, 2);
+    state_machine::mark_success(state_table, 3);
+    state_machine::mark_fail(state_table, 4);
+    state_machine::mark_success(state_table, 5);
+    state_machine::mark_fail(state_table, 6);
+    state_machine::mark_success(state_table, 7);
+    state_machine::mark_fail(state_table, 8);
+    state_machine::mark_success(state_table, 9);
+    state_machine::mark_success(state_table, 10);
+    state_machine::mark_success(state_table, 11);
 
     // mark alphabet
     state_machine::mark_cells(0, state_table, ALPHA, 1);
@@ -38,8 +39,8 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
     state_machine::mark_cells(4, state_table, ALPHA, -1);
     state_machine::mark_cells(5, state_table, ALPHA, -1);
     state_machine::mark_cells(6, state_table, ALPHA, 7);
-    state_machine::mark_cells(7, state_table, ALPHA, 7);
-    
+    state_machine::mark_cells(7, state_table, ALPHA, 11);
+
     // mark spaces
     state_machine::mark_cells(0, state_table, WHITESPACE, 2);
     state_machine::mark_cells(1, state_table, WHITESPACE, -1);
@@ -75,7 +76,8 @@ void STokenizer::make_table(int state_table[][MAX_COLUMNS]) {
 
 bool STokenizer::get_token(int start_state, std::string& token) {
     int last_pos = pos;
-    bool has_token = state_machine::get_token(buffer, pos, state_table, start_state);
+    bool has_token =
+        state_machine::get_token(buffer, pos, state_table, start_state);
     char _token[MAX_BUFFER] = "";
     strncpy(_token, buffer + last_pos, pos + 1 - last_pos);
     token = _token;

@@ -7,6 +7,7 @@ std::string Token::type_string() const {
     switch (_type) {
         case 1:
         case 7:
+        case 11:
             return "ALPHA";
         case 2:
             return "SPACE";
