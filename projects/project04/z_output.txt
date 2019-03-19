@@ -1,0 +1,1019 @@
+enter the filename to tokenize: file.txt
+
+ALPHA          |This|
+SPACE          | |
+ALPHA          |ain't|
+SPACE          | |
+ALPHA          |for|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |best|
+SPACE          |LINE FEED|
+ALPHA          |My|
+SPACE          | |
+ALPHA          |reputation's|
+SPACE          | |
+ALPHA          |never|
+SPACE          | |
+ALPHA          |been|
+SPACE          | |
+ALPHA          |worse|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |so|
+SPACE          |LINE FEED|
+ALPHA          |You|
+SPACE          | |
+ALPHA          |must|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |for|
+SPACE          | |
+ALPHA          |me|
+SPACE          |LINE FEED|
+ALPHA          |We|
+SPACE          | |
+ALPHA          |can't|
+SPACE          | |
+ALPHA          |make|
+SPACE          |LINE FEED|
+ALPHA          |Any|
+SPACE          | |
+ALPHA          |promises|
+SPACE          | |
+ALPHA          |now|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |can|
+SPACE          | |
+ALPHA          |we|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |babe|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |But|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |can|
+SPACE          | |
+ALPHA          |make|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |a|
+SPACE          | |
+ALPHA          |drink|
+SPACE          |LINE FEED|
+ALPHA          |Dive|
+SPACE          | |
+ALPHA          |bar|
+SPACE          | |
+ALPHA          |on|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |East|
+SPACE          | |
+ALPHA          |Side|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |where|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |at|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Phone|
+SPACE          | |
+ALPHA          |lights|
+SPACE          | |
+ALPHA          |up|
+SPACE          | |
+ALPHA          |my|
+SPACE          | |
+ALPHA          |nightstand|
+SPACE          | |
+ALPHA          |in|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |black|
+SPACE          |LINE FEED|
+ALPHA          |Come|
+SPACE          | |
+ALPHA          |here|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |can|
+SPACE          | |
+ALPHA          |meet|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |in|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |back|
+SPACE          |LINE FEED|
+ALPHA          |Dark|
+SPACE          | |
+ALPHA          |jeans|
+SPACE          | |
+ALPHA          |and|
+SPACE          | |
+ALPHA          |your|
+SPACE          | |
+ALPHA          |Nikes|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |look|
+SPACE          | |
+ALPHA          |at|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |Oh|
+SPACE          | |
+ALPHA          |damn|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |never|
+SPACE          | |
+ALPHA          |seen|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |color|
+SPACE          | |
+ALPHA          |blue|
+SPACE          |LINE FEED|
+ALPHA          |Just|
+SPACE          | |
+ALPHA          |think|
+SPACE          | |
+ALPHA          |of|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |fun|
+SPACE          | |
+ALPHA          |things|
+SPACE          | |
+ALPHA          |we|
+SPACE          | |
+ALPHA          |could|
+SPACE          | |
+ALPHA          |do|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |This|
+SPACE          | |
+ALPHA          |ain't|
+SPACE          | |
+ALPHA          |for|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |best|
+SPACE          |LINE FEED|
+ALPHA          |My|
+SPACE          | |
+ALPHA          |reputation's|
+SPACE          | |
+ALPHA          |never|
+SPACE          | |
+ALPHA          |been|
+SPACE          | |
+ALPHA          |worse|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |so|
+SPACE          |LINE FEED|
+ALPHA          |You|
+SPACE          | |
+ALPHA          |must|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |for|
+SPACE          | |
+ALPHA          |me|
+SPACE          |LINE FEED|
+ALPHA          |Yeah|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |want|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |We|
+SPACE          | |
+ALPHA          |can't|
+SPACE          | |
+ALPHA          |make|
+SPACE          |LINE FEED|
+ALPHA          |Any|
+SPACE          | |
+ALPHA          |promises|
+SPACE          | |
+ALPHA          |now|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |can|
+SPACE          | |
+ALPHA          |we|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |babe|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |But|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |can|
+SPACE          | |
+ALPHA          |make|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |a|
+SPACE          | |
+ALPHA          |drink|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |chill|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |you're|
+SPACE          | |
+ALPHA          |in|
+SPACE          | |
+ALPHA          |my|
+SPACE          | |
+ALPHA          |head|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |delicate|
+SPACE          | |
+PUNCTUATION    |(|
+ALPHA          |delicate|
+PUNCTUATION    |)|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |too|
+SPACE          | |
+ALPHA          |soon|
+SPACE          | |
+ALPHA          |to|
+SPACE          | |
+ALPHA          |do|
+SPACE          | |
+ALPHA          |this|
+SPACE          | |
+ALPHA          |yet|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |delicate|
+SPACE          |LINE FEED|
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Delicate|
+SPACE          |LINE FEED|
+ALPHA          |Third|
+SPACE          | |
+ALPHA          |floor|
+SPACE          | |
+ALPHA          |on|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |West|
+SPACE          | |
+ALPHA          |Side|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |and|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |Handsome|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |your|
+SPACE          | |
+ALPHA          |mansion|
+SPACE          | |
+ALPHA          |with|
+SPACE          | |
+ALPHA          |a|
+SPACE          | |
+ALPHA          |view|
+SPACE          |LINE FEED|
+ALPHA          |Do|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |girls|
+SPACE          | |
+ALPHA          |back|
+SPACE          | |
+ALPHA          |home|
+SPACE          | |
+ALPHA          |touch|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |do|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Long|
+SPACE          | |
+ALPHA          |n|
+ALPHA          |ight|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |with|
+SPACE          | |
+ALPHA          |your|
+SPACE          | |
+ALPHA          |hands|
+SPACE          | |
+ALPHA          |up|
+SPACE          | |
+ALPHA          |in|
+SPACE          | |
+ALPHA          |my|
+SPACE          | |
+ALPHA          |hair|
+SPACE          |LINE FEED|
+ALPHA          |Echoes|
+SPACE          | |
+ALPHA          |of|
+SPACE          | |
+ALPHA          |your|
+SPACE          | |
+ALPHA          |footsteps|
+SPACE          | |
+ALPHA          |on|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |stairs|
+SPACE          |LINE FEED|
+ALPHA          |Stay|
+SPACE          | |
+ALPHA          |here|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |honey|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |don't|
+SPACE          | |
+ALPHA          |wanna|
+SPACE          | |
+ALPHA          |share|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |This|
+SPACE          | |
+ALPHA          |ain't|
+SPACE          | |
+ALPHA          |for|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |best|
+SPACE          |LINE FEED|
+ALPHA          |My|
+SPACE          | |
+ALPHA          |reputation's|
+SPACE          | |
+ALPHA          |never|
+SPACE          | |
+ALPHA          |been|
+SPACE          | |
+ALPHA          |worse|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |so|
+SPACE          |LINE FEED|
+ALPHA          |You|
+SPACE          | |
+ALPHA          |must|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |for|
+SPACE          | |
+ALPHA          |me|
+SPACE          |LINE FEED|
+ALPHA          |Yeah|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |want|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |We|
+SPACE          | |
+ALPHA          |can't|
+SPACE          | |
+ALPHA          |make|
+SPACE          |LINE FEED|
+ALPHA          |Any|
+SPACE          | |
+ALPHA          |pro|
+ALPHA          |mises|
+SPACE          | |
+ALPHA          |now|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |can|
+SPACE          | |
+ALPHA          |we|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |babe|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |But|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |can|
+SPACE          | |
+ALPHA          |make|
+SPACE          | |
+ALPHA          |me|
+SPACE          | |
+ALPHA          |a|
+SPACE          | |
+ALPHA          |drink|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |chill|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |you're|
+SPACE          | |
+ALPHA          |in|
+SPACE          | |
+ALPHA          |my|
+SPACE          | |
+ALPHA          |head|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |delicate|
+SPACE          | |
+PUNCTUATION    |(|
+ALPHA          |delicate|
+PUNCTUATION    |)|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |too|
+SPACE          | |
+ALPHA          |soon|
+SPACE          | |
+ALPHA          |to|
+SPACE          | |
+ALPHA          |do|
+SPACE          | |
+ALPHA          |this|
+SPACE          | |
+ALPHA          |yet|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |d|
+ALPHA          |elicate|
+SPACE          |LINE FEED|
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          | |
+ALPHA          |Isn't|
+SPACE          | |
+ALPHA          |it|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Delicate|
+SPACE          |LINE FEED|
+ALPHA          |Sometimes|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |wonder|
+SPACE          | |
+ALPHA          |when|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |sleep|
+SPACE          |LINE FEED|
+ALPHA          |Are|
+SPACE          | |
+ALPHA          |you|
+SPACE          | |
+ALPHA          |ever|
+SPACE          | |
+ALPHA          |dreaming|
+SPACE          | |
+ALPHA          |of|
+SPACE          | |
+ALPHA          |me|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Sometimes|
+SPACE          | |
+ALPHA          |when|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |look|
+SPACE          | |
+ALPHA          |into|
+SPACE          | |
+ALPHA          |your|
+SPACE          | |
+ALPHA          |eyes|
+SPACE          |LINE FEED|
+ALPHA          |I|
+SPACE          | |
+ALPHA          |pretend|
+SPACE          | |
+ALPHA          |you're|
+SPACE          | |
+ALPHA          |mine|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |the|
+SPACE          | |
+ALPHA          |damn|
+SPACE          | |
+ALPHA          |time|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |yo|
+ALPHA          |u|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |chill|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |you're|
+SPACE          | |
+ALPHA          |in|
+SPACE          | |
+ALPHA          |my|
+SPACE          | |
+ALPHA          |head|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |delicate|
+SPACE          | |
+PUNCTUATION    |(|
+ALPHA          |delicate|
+PUNCTUATION    |)|
+SPACE          |LINE FEED|
+ALPHA          |Yeah|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |want|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |too|
+SPACE          | |
+ALPHA          |soon|
+SPACE          | |
+ALPHA          |to|
+SPACE          | |
+ALPHA          |do|
+SPACE          | |
+ALPHA          |this|
+SPACE          | |
+ALPHA          |yet|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |delicate|
+SPACE          | |
+PUNCTUATION    |(|
+ALPHA          |delicate|
+PUNCTUATION    |)|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |like|
+SPACE          | |
+ALPHA          |y|
+ALPHA          |ou|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |chill|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |you're|
+SPACE          | |
+ALPHA          |in|
+SPACE          | |
+ALPHA          |my|
+SPACE          | |
+ALPHA          |head|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |delicate|
+SPACE          | |
+PUNCTUATION    |(|
+ALPHA          |delicate|
+PUNCTUATION    |)|
+SPACE          |LINE FEED|
+ALPHA          |Yeah|
+PUNCTUATION    |,|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |want|
+SPACE          | |
+ALPHA          |you|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |cool|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |said|
+SPACE          | |
+ALPHA          |all|
+SPACE          | |
+ALPHA          |that|
+SPACE          |LINE FEED|
+ALPHA          |Is|
+SPACE          | |
+ALPHA          |it|
+SPACE          | |
+ALPHA          |too|
+SPACE          | |
+ALPHA          |soon|
+SPACE          | |
+ALPHA          |to|
+SPACE          | |
+ALPHA          |do|
+SPACE          | |
+ALPHA          |this|
+SPACE          | |
+ALPHA          |yet|
+PUNCTUATION    |?|
+SPACE          |LINE FEED|
+ALPHA          |'Cause|
+SPACE          | |
+ALPHA          |I|
+SPACE          | |
+ALPHA          |know|
+SPACE          | |
+ALPHA          |that|
+SPACE          | |
+ALPHA          |it's|
+SPACE          | |
+ALPHA          |delicate|
+SPACE          |LINE FEED|
+ALPHA          |Delicate|
+
+Press any key to continue . . .
