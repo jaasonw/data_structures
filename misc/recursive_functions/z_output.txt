@@ -1,0 +1,29 @@
+ This was written by call number 1
+  This was written by call number 2
+   This was written by call number 3
+    This was written by call number 4
+     This was written by call number 5
+     This ALSO written by call number 5
+    This ALSO written by call number 4
+   This ALSO written by call number 3
+  This ALSO written by call number 2
+ This ALSO written by call number 1
+CATMAN
+ACTMAN
+TCAMAN
+CTAMAN
+CTAMAN
+CATMAN
+TACMAN
+TCAMAN
+TCAMAN
+
+2.28333
+is your number lower, higher, or equal to 50: lower
+is your number lower, higher, or equal to 25: lower
+is your number lower, higher, or equal to 12: higher
+is your number lower, higher, or equal to 18: lower
+is your number lower, higher, or equal to 15: higher
+your number is 16
+
+Press any key to continue . . .
