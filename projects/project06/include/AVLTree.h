@@ -59,5 +59,11 @@ void AVLTree<T>::insert(const T& item) {
 
 template <typename T>
 void AVLTree<T>::erase(const T& target) {
-    binary_search_tree::erase(root, target);
+    avl::erase(root, target);
+}
+
+template <typename T>
+bool AVLTree<T>::search(const T& target, binary_tree::Node<T>*& found_ptr) {
+    found_ptr = binary_search_tree::search(root, target);
+    return found_ptr != nullptr;
 }

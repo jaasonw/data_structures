@@ -62,3 +62,10 @@ template <typename T>
 void BinarySearchTree<T>::erase(const T& target) {
     binary_search_tree::erase(root, target);
 }
+
+template <typename T>
+bool BinarySearchTree<T>::search(const T& target,
+                                 binary_tree::Node<T>*& found_ptr) {
+    found_ptr = binary_search_tree::search(root, target);
+    return found_ptr != nullptr;
+}
