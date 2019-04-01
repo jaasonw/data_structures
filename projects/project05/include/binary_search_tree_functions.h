@@ -75,6 +75,8 @@ namespace binary_search_tree {
     // frees all nodes on the tree and sets root to null
     template <typename T>
     void clear(binary_tree::Node<T>*& root) {
+        if (root == nullptr)
+            return;
         if (root->right != nullptr) {
             clear(root->right);
         }
