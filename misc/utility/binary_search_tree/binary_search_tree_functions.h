@@ -97,25 +97,6 @@ namespace binary_search_tree {
         return root;
     }
 
-    // erases the max node from the given root and stores the item in max_value
-    template <typename T>
-    void remove_max(binary_tree::Node<T>*& root, T& max_value) {
-        if (root->right != nullptr) {
-            remove_max(root->right, max_value);
-            root->update_height();
-        } else if (root->left != nullptr && root->right == nullptr) {
-            max_value = root->data;
-            *root = *root->left;
-            delete root->left;
-            root->update_height();
-        } else {
-            max_value = root->data;
-            binary_tree::Node<T>* temp = root;
-            root = nullptr;
-            delete temp;
-        }
-    }
-
     // erases an item from the tree
     // returns true if item was successfully erased
     // returns false if item not found
@@ -157,6 +138,25 @@ namespace binary_search_tree {
         return false;
     }
 
+    // erases the max node from the given root and stores the item in max_value
+    template <typename T>
+    void remove_max(binary_tree::Node<T>*& root, T& max_value) {
+        if (root->right != nullptr) {
+            remove_max(root->right, max_value);
+            root->update_height();
+        } else if (root->left != nullptr && root->right == nullptr) {
+            max_value = root->data;
+            *root = *root->left;
+            delete root->left;
+            root->update_height();
+        } else {
+            max_value = root->data;
+            binary_tree::Node<T>* temp = root;
+            root = nullptr;
+            delete temp;
+        }
+    }
+
     // creates a copy of a tree given a root
     // returns a pointer to the root of the new tree
     template <typename T>
@@ -187,15 +187,5 @@ namespace binary_search_tree {
             root = new binary_tree::Node<T>(array[size / 2]);
         root->update_height();
         return root;
-    }
-
-    // Add tree src to dest
-    template <typename T>
-    void add(binary_tree::Node<T>*& dest, const binary_tree::Node<T>* src) {
-        if (src == nullptr)
-            return;
-        dest.insert(src->data);
-        add(dest, src->right);
-        add(dest, src->left);
     }
 }; // namespace binary_search_tree
