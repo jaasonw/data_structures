@@ -1,0 +1,73 @@
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: r
+94
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: r
+94
+    15
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: r
+    83
+94
+    15
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: r
+    83
+94
+    15
+        11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: r
+    83
+94
+        15
+    75
+        11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: r
+    83
+        75
+94
+        15
+    75
+        11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: r
+        72
+    83
+        75
+94
+        15
+    75
+        11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: p
+popped: 94
+    75
+        72
+83
+        15
+    75
+        11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: p
+popped: 83
+    72
+75
+        15
+    75
+        11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: p
+popped: 75
+    72
+75
+    15
+        11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: p
+popped: 75
+    11
+72
+    15
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: p
+popped: 72
+15
+    11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: p
+popped: 15
+11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: p
+popped: 11
+[R]andom  [I]nsert  [C]lear  [P]op   e[X]it: x
+
+Press any key to continue . . .

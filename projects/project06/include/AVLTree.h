@@ -17,7 +17,9 @@ public:
     void erase(const T& target);
     bool search(const T& target, binary_tree::Node<T>*& found_ptr);
 
-    AVLTree<T>& operator+=(const AVLTree<T>& other);
+    AVLTree<T>& operator+=(const AVLTree<T>& other) {
+        binary_search_tree::add(root, other.root);
+    }
     friend std::ostream& operator<<(std::ostream& outs,
                                     const AVLTree<T>& tree) {
         binary_search_tree::print(tree.root, 0, outs);

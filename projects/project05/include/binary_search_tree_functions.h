@@ -3,7 +3,7 @@
 
 // Contains functions specific to manipulating binary search trees
 namespace binary_search_tree {
-    // inserts an item into the tree 
+    // inserts an item into the tree
     template <typename T>
     void insert(binary_tree::Node<T>*& root, const T& item) {
         if (root == nullptr)
@@ -97,6 +97,25 @@ namespace binary_search_tree {
         return root;
     }
 
+    // erases the max node from the given root and stores the item in max_value
+    template <typename T>
+    void remove_max(binary_tree::Node<T>*& root, T& max_value) {
+        if (root->right != nullptr) {
+            remove_max(root->right, max_value);
+            root->update_height();
+        } else if (root->left != nullptr && root->right == nullptr) {
+            max_value = root->data;
+            *root = *root->left;
+            delete root->left;
+            root->update_height();
+        } else {
+            max_value = root->data;
+            binary_tree::Node<T>* temp = root;
+            root = nullptr;
+            delete temp;
+        }
+    }
+
     // erases an item from the tree
     // returns true if item was successfully erased
     // returns false if item not found
@@ -138,34 +157,14 @@ namespace binary_search_tree {
         return false;
     }
 
-    // erases the max node from the given root and stores the item in max_value
-    template <typename T>
-    void remove_max(binary_tree::Node<T>*& root, T& max_value) {
-        if (root->right != nullptr) {
-            remove_max(root->right, max_value);
-            root->update_height();
-        } else if (root->left != nullptr && root->right == nullptr) {
-            max_value = root->data;
-            *root = *root->left;
-            delete root->left;
-            root->update_height();
-        } else {
-            max_value = root->data;
-            binary_tree::Node<T>* temp = root;
-            root = nullptr;
-            delete temp;
-        }
-    }
-
     // creates a copy of a tree given a root
     // returns a pointer to the root of the new tree
     template <typename T>
     binary_tree::Node<T>* copy(binary_tree::Node<T>* root) {
         if (root == nullptr)
             return nullptr;
-        root = new binary_tree::Node<T>(
-            root->data, copy(root->left), copy(root->right)
-        );
+        root = new binary_tree::Node<T>(root->data, copy(root->left),
+                                        copy(root->right));
         return root;
     }
 
@@ -178,14 +177,21 @@ namespace binary_search_tree {
         binary_tree::Node<T>* root;
         if (size > 1) {
             root = new binary_tree::Node<T>(
-                array[size / 2],
-                create_from_sorted_list(array, size / 2),
-                create_from_sorted_list(&array[size / 2 + 1], (size - 1) / 2)
-            );
-        }
-        else 
+                array[size / 2], create_from_sorted_list(array, size / 2),
+                create_from_sorted_list(&array[size / 2 + 1], (size - 1) / 2));
+        } else
             root = new binary_tree::Node<T>(array[size / 2]);
         root->update_height();
         return root;
+    }
+
+    // Add tree src to dest
+    template <typename T>
+    void add(binary_tree::Node<T>*& dest, const binary_tree::Node<T>* src) {
+        if (src == nullptr)
+            return;
+        dest.insert(src->data);
+        add(dest, src->right);
+        add(dest, src->left);
     }
 }; // namespace binary_search_tree

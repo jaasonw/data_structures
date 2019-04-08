@@ -17,10 +17,12 @@ public:
     void erase(const T& target);
     bool search(const T& target, binary_tree::Node<T>*& found_ptr);
 
-    BinarySearchTree<T>& operator+=(const BinarySearchTree<T>& other);
+    BinarySearchTree<T>& operator+=(const BinarySearchTree<T>& other) {
+        binary_search_tree::add(root, other.root);
+    }
     friend std::ostream& operator<<(std::ostream& outs,
                                     const BinarySearchTree<T>& tree) {
-        binary_search_tree::print_debug(tree.root, 0, outs);
+        binary_search_tree::print(tree.root, 0, outs);
         return outs;
     }
 };

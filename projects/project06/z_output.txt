@@ -1,0 +1,154 @@
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i100
+|100|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i1
+|100|
+    |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i2
+    |100|
+|2|
+    |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i3
+    |100|
+        |3|
+|2|
+    |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i4
+        |100|
+    |4|
+        |3|
+|2|
+    |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i5
+    |100|
+        |5|
+|4|
+        |3|
+    |2|
+        |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i6
+        |100|
+    |6|
+        |5|
+|4|
+        |3|
+    |2|
+        |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i7
+        |100|
+            |7|
+    |6|
+        |5|
+|4|
+        |3|
+    |2|
+        |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i8
+            |100|
+        |8|
+            |7|
+    |6|
+        |5|
+|4|
+        |3|
+    |2|
+        |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: i9
+        |100|
+            |9|
+    |8|
+            |7|
+        |6|
+            |5|
+|4|
+        |3|
+    |2|
+        |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: r
+            |100|
+        |41|
+            |9|
+    |8|
+            |7|
+        |6|
+            |5|
+|4|
+        |3|
+    |2|
+        |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: r
+        |100|
+            |67|
+    |41|
+        |9|
+|8|
+            |7|
+        |6|
+            |5|
+    |4|
+            |3|
+        |2|
+            |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: r
+        |100|
+            |67|
+    |41|
+            |34|
+        |9|
+|8|
+            |7|
+        |6|
+            |5|
+    |4|
+            |3|
+        |2|
+            |1|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: r
+        |100|
+            |67|
+    |41|
+            |34|
+        |9|
+|8|
+            |7|
+        |6|
+            |5|
+    |4|
+            |3|
+        |2|
+            |1|
+                |0|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: s3
+item found: |3| at 0xf33e80
+        |100|
+            |67|
+    |41|
+            |34|
+        |9|
+|8|
+            |7|
+        |6|
+            |5|
+    |4|
+            |3|
+        |2|
+            |1|
+                |0|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: s-1
+item not found
+        |100|
+            |67|
+    |41|
+            |34|
+        |9|
+|8|
+            |7|
+        |6|
+            |5|
+    |4|
+            |3|
+        |2|
+            |1|
+                |0|
+[R]andom  [I]nsert  [C]lear  [S]earch   e[X]it: x
+
+Press any key to continue . . .
