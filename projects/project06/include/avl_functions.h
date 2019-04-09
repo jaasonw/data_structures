@@ -43,6 +43,8 @@ namespace avl {
         } else if (*root < item) {
             avl::insert(root->right, item);
             root->update_height();
+        } else {
+            root->data = item;
         }
 
         // balance the tree

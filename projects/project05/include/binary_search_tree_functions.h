@@ -14,6 +14,8 @@ namespace binary_search_tree {
         } else if (*root < item) {
             insert(root->right, item);
             root->update_height();
+        } else {
+            root->data = item;
         }
     }
 
