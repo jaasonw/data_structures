@@ -57,4 +57,22 @@ namespace binary_tree {
 
         bool operator==(const T& other_item) { return data == other_item; }
     };
+
+    template <typename T>
+    class node_ptr {
+    private:
+        Node<T>* ptr;
+    public:
+        node_ptr() { ptr = nullptr; }
+        node_ptr(Node<T>* node) { ptr = node; }
+        T& operator*() { return ptr->data; }
+        T* operator->() { return &ptr->data; }
+        friend bool operator==(const node_ptr& left, const node_ptr& right) {
+            return left.ptr == right.ptr;
+        }
+        friend bool operator!=(const node_ptr& left, const node_ptr& right) {
+            return left.ptr != right.ptr;
+        }
+        bool is_null() { return ptr == nullptr; }
+    };
 } // namespace binary_tree
