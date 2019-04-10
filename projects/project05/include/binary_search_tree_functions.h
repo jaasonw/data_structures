@@ -196,4 +196,14 @@ namespace binary_search_tree {
         add(dest, src->right);
         add(dest, src->left);
     }
+
+    template <typename T>
+    void print_in_order(const binary_tree::Node<T>* root,
+                        std::ostream& outs = std::cout) {
+        if (root == nullptr)
+            return;
+        print_in_order(root->left);
+        outs << '[' <<root->data << "] ";
+        print_in_order(root->right);
+    }
 }; // namespace binary_search_tree

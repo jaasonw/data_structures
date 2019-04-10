@@ -14,6 +14,8 @@ namespace binary_search_tree {
         } else if (*root < item) {
             insert(root->right, item);
             root->update_height();
+        } else {
+            root->data = item;
         }
     }
 
@@ -193,5 +195,15 @@ namespace binary_search_tree {
         dest.insert(src->data);
         add(dest, src->right);
         add(dest, src->left);
+    }
+
+    template <typename T>
+    void print_in_order(const binary_tree::Node<T>* root,
+                        std::ostream& outs = std::cout) {
+        if (root == nullptr)
+            return;
+        print_in_order(root->left);
+        outs << '[' << root->data << "] ";
+        print_in_order(root->right);
     }
 }; // namespace binary_search_tree

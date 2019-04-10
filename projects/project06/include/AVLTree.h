@@ -7,6 +7,21 @@ private:
     binary_tree::Node<T>* root;
 
 public:
+    class node_ptr {
+    public:
+        node_ptr() {
+            ptr = nullptr;
+        }
+        node_ptr(binary_tree::Node<T>* node) {
+            ptr = node;
+        }
+        friend class AVLTree;
+        T& operator*() { return ptr->data; }
+        bool is_null() { return ptr == nullptr; }
+    private:
+        binary_tree::Node<T>* ptr;
+    };
+
     AVLTree();
     AVLTree(const T* sorted_array, int size);
     AVLTree(const AVLTree<T>& other);
@@ -15,7 +30,10 @@ public:
 
     void insert(const T& item);
     void erase(const T& target);
-    bool search(const T& target, binary_tree::Node<T>*& found_ptr);
+    bool search(const T& target, node_ptr& found_ptr);
+    void print_in_order(std::ostream& outs = std::cout) const {
+        binary_search_tree::print_in_order(root, outs);
+    }
 
     AVLTree<T>& operator+=(const AVLTree<T>& other) {
         binary_search_tree::add(root, other.root);
@@ -65,7 +83,7 @@ void AVLTree<T>::erase(const T& target) {
 }
 
 template <typename T>
-bool AVLTree<T>::search(const T& target, binary_tree::Node<T>*& found_ptr) {
-    found_ptr = binary_search_tree::search(root, target);
+bool AVLTree<T>::search(const T& target, node_ptr& found_ptr) {
+    found_ptr = node_ptr(binary_search_tree::search(root, target));
     return found_ptr != nullptr;
 }
