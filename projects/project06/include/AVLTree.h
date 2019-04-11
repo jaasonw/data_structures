@@ -5,7 +5,7 @@ template <typename T>
 class AVLTree {
 private:
     binary_tree::Node<T>* root;
-
+    unsigned int _size = 0;
 public:
     AVLTree();
     AVLTree(const T* sorted_array, int size);
@@ -16,6 +16,7 @@ public:
     void insert(const T& item);
     void erase(const T& target);
     bool search(const T& target, binary_tree::node_ptr<T>& found_ptr) const;
+    unsigned int size() const { return _size; };
     void print_in_order(std::ostream& outs = std::cout) const {
         binary_search_tree::print_in_order(root, outs);
     }
@@ -60,11 +61,12 @@ AVLTree<T>::~AVLTree() {
 template <typename T>
 void AVLTree<T>::insert(const T& item) {
     avl::insert(root, item);
+    ++_size;
 }
 
 template <typename T>
 void AVLTree<T>::erase(const T& target) {
-    avl::erase(root, target);
+    avl::erase(root, target) ? --_size : _size;
 }
 
 template <typename T>
