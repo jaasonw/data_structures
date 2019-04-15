@@ -73,6 +73,12 @@ namespace binary_tree {
         friend bool operator!=(const node_ptr& left, const node_ptr& right) {
             return left.ptr != right.ptr;
         }
+        friend bool operator==(const node_ptr& left, const std::nullptr_t null) {
+            return left.ptr == null;
+        }
+        friend bool operator!=(const node_ptr& left, const std::nullptr_t null) {
+            return left.ptr != null;
+        }
         bool is_null() { return ptr == nullptr; }
     };
 } // namespace binary_tree
