@@ -1,0 +1,36 @@
+BUBBLE SORT
+BEFORE: 7 6 1 0 3 9 7 9 0 0 3 1 5 5 4 10 3 0 8 0
+AFTER: 0 0 0 0 0 1 1 3 3 3 4 5 5 6 7 7 8 9 9 10
+SORTED
+
+INSERTION SORT
+BEFORE: 7 4 8 10 2 9 10 2 4 8 10 7 1 0 9 10 5 5 1 6
+AFTER: 0 1 1 2 2 4 4 5 5 6 7 7 8 8 9 9 10 10 10 10
+SORTED
+
+HEAP SORT
+BEFORE: 5 0 4 8 0 4 6 0 7 6 10 9 2 10 6 5 4 6 6 10
+AFTER: 10 10 10 9 8 7 6 6 6 6 6 5 5 4 4 4 2 0 0 0
+SORTED
+
+MERGE SORT
+BEFORE: 3 9 9 1 2 9 2 4 8 4 9 3 0 6 4 0 9 1 3 5
+AFTER: 0 0 1 1 2 2 3 3 3 4 4 4 5 6 8 9 9 9 9 9
+SORTED
+
+QUICK SORT
+BEFORE: 10 1 5 10 7 3 7 5 0 1 10 1 1 10 8 8 7 1 2 0
+AFTER: 0 0 1 1 1 1 1 2 3 5 5 7 7 7 8 8 10 10 10 10
+SORTED
+
+average duration - quick_sort(50000): 0.82800ms
+average duration - merge_sort(50000): 1.75200ms
+average duration - heap_sort(50000): 2.92600ms
+average duration - insertion_sort(50000): 338.03000ms
+
+Measuring Performance
+Time elapsed: 88.00000 seconds
+Writing to file
+Done
+
+Press any key to continue . . .
