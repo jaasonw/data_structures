@@ -2,27 +2,50 @@
 #include <cmath>
 #include <iostream>
 
+// a mostly generic interactive test with tweaks for the appropriate structure
 template <typename T>
-void test_tree(T& tree) {
+void interactive_test(T& tree) {
     while (true) {
         char input;
-        std::cout << "[R]andom [G]enerate [I]nsert  [C]lear  [S]earch   e[X]it: ";
+        std::cout << "[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: ";
         std::cin >> input;
         switch (tolower(input)) {
             case 'r':
                 tree.insert(rand() % 100);
                 break;
             case 'g':
+                tree.clear_tree();
                 tree.insert(75);
                 tree.insert(100);
                 tree.insert(25);
                 tree.insert(50);
                 tree.insert(110);
+                tree.insert(112);
                 tree.insert(80);
                 tree.insert(12);
                 tree.insert(30);
                 tree.insert(60);
+                // tree.remove(112);
+                // tree.remove(100);
+                // tree.remove(110);
+                // tree.remove(80);
+                // tree.remove(110);
+                // tree.remove(60);
+                // tree.remove(100);
+                // tree.remove(50);
                 break;
+            case 'd': {
+                int input;
+                std::cin >> input;
+                try {
+                    tree.remove(input);
+                }
+                catch (std::out_of_range) {
+                    std::cout << "Item not in tree" << std::endl;
+                }
+                break;
+            }
+
             case 'i': {
                 int input;
                 std::cin >> input;
@@ -31,6 +54,7 @@ void test_tree(T& tree) {
             }
             case 'c':
                 // tree = T();
+                tree.clear_tree();
                 break;
             case 's': {
                 int input;

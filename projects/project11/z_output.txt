@@ -1,0 +1,69 @@
+Assignment operator test passed
+Copy constructor test passed
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: g
+                [ 112 ]
+        [ 110 ]
+                [ 80 100 ]
+[ 75 ]
+                [ 60 ]
+                [ 30 ]
+        [ 25 50 ]
+                [ 12 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d110
+                [ 112 ]
+        [ 100 ]
+                [ 80 ]
+[ 75 ]
+                [ 60 ]
+                [ 30 ]
+        [ 25 50 ]
+                [ 12 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d100
+                [ 80 112 ]
+        [ 75 ]
+                [ 60 ]
+[ 50 ]
+                [ 30 ]
+        [ 25 ]
+                [ 12 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d25
+        [ 80 112 ]
+        [ 60 ]
+[ 50 75 ]
+        [ 12 30 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d74
+Item not in tree
+        [ 80 112 ]
+        [ 60 ]
+[ 50 75 ]
+        [ 12 30 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d50
+        [ 80 112 ]
+        [ 60 ]
+[ 30 75 ]
+        [ 12 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d12
+        [ 80 112 ]
+[ 75 ]
+        [ 30 60 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d75
+        [ 80 112 ]
+[ 60 ]
+        [ 30 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d30
+        [ 112 ]
+[ 80 ]
+        [ 60 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d112
+[ 60 80 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d80
+[ 60 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d50
+Item not in tree
+[ 60 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d60
+[ ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: i50
+[ 50 ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d50
+[ ]

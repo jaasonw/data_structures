@@ -19,9 +19,9 @@ void swap(T& a, T& b) {
 }
 // return index of the largest item in data
 template <typename T>
-int index_of_maximal(T* data, int size) {
+int index_of_maximal(T* data, size_t size) {
     int largest = 0;
-    for (int i = 0; i < size; i++) {
+    for (size_t i = 0; i < size; i++) {
         if (data[i] > data[largest]) {
             largest = i;
         }
@@ -31,8 +31,8 @@ int index_of_maximal(T* data, int size) {
 
 // insert entry at index i in data
 template <typename T>
-void insert_item(T* data, int pos, int& size, const T& entry) {
-    for (int i = ++size; i > pos; i--) {
+void insert_item(T* data, size_t pos, size_t& size, const T& entry) {
+    for (size_t i = ++size; i > pos; i--) {
         data[i] = data[i - 1];
     }
     data[pos] = entry;
@@ -40,9 +40,9 @@ void insert_item(T* data, int pos, int& size, const T& entry) {
 
 // insert entry into the sorted array data with length n
 template <typename T>
-void ordered_insert(T* data, int& size, const T& entry) {
+void ordered_insert(T* data, size_t& size, const T& entry) {
     int pos = 0;
-    for (int i = 0; i < size; i++) {
+    for (size_t i = 0; i < size; i++) {
         if (entry > data[i]) {
             pos = i + 1;
         }
@@ -52,9 +52,10 @@ void ordered_insert(T* data, int& size, const T& entry) {
 
 // return the first element in data that is not less than entry
 template <typename T>
-int first_ge(const T* data, int size, const T& entry) {
-    for (int i = 0; i < size; i++) {
-        if (!(data[i] < entry)) {
+int first_ge(const T* data, size_t size, const T& entry) {
+    for (size_t i = 0; i < size; i++) {
+        // if (!(data[i] < entry)) {
+        if (data[i] >= entry) {
             return i;
         }
     }
@@ -63,29 +64,44 @@ int first_ge(const T* data, int size, const T& entry) {
 
 // append entry to the right of data
 template <typename T>
-void attach_item(T* data, int& size, const T& entry) {
+void attach_item(T* data, size_t& size, const T& entry) {
     data[size++] = entry;
 }
 
 // remove the last element in data and place it in entry
 template <typename T>
-T detach_item(T* data, int& size) {
-    return data[--size];
+T detach_item(T* data, size_t& size) {
+    T item = data[size - 1];
+    data[size] = T();
+    data[--size] = T();
+    return item;
 }
 
-// delete item at index i and place it in entry
+// delete item at index i and return it, shifts array
 template <typename T>
-T delete_item(T* data, int i, int& size) {}
+T delete_item(T* data, int index, size_t& size) {
+    T item = data[index];
+    for (size_t i = index; i < size - 1; i++) {
+        data[i] = data[i + 1];
+    }
+    data[size] = T();
+    data[--size] = T();
+    return item;
+}
 
 // append data2 to the right of data1
 template <typename T>
-void merge(T* data1, int& size1, T* data2, int& size2);
+void merge(T* data1, T* data2, size_t& size1, size_t& size2) {
+    for (size_t i = 0; i < size2; i++) {
+        attach_item(data1, size1, data2[i]);
+    }
+}
 
-// move n/2 elements from the right of data1 and move to data2
+// move n / 2 elements from the right of data1 and move to data2
 template <typename T>
-void split(T* data1, int& size1, T* data2, int& size2) {
-    int size = size1;
-    for (int i = ((size + 1) / 2); i < size; i++) {
+void split(T* data1, size_t& size1, T* data2, size_t& size2) {
+    size_t size = size1;
+    for (size_t i = ((size + 1) / 2); i < size; i++) {
         data2[i - ((size + 1) / 2)] = data1[i];
     }
     size1 = (size + 1) / 2;
@@ -94,8 +110,8 @@ void split(T* data1, int& size1, T* data2, int& size2) {
 
 // copy src[] into dest[]
 template <typename T>
-void copy_array(const T src[], T dest[], int src_size, int& dest_size) {
-    for (int i = 0; i < src_size; i++) {
+void copy_array(const T* src, T* dest, size_t src_size, size_t& dest_size) {
+    for (size_t i = 0; i < src_size; i++) {
         dest[i] = src[i];
     }
     dest_size = src_size;
@@ -103,24 +119,43 @@ void copy_array(const T src[], T dest[], int src_size, int& dest_size) {
 
 // print array data
 template <typename T>
-void print_array(const T data[], int size, int level = 0,
+void print_array(const T* data, size_t size, int level = 0,
                  std::ostream& outs = std::cout) {
     const int SPACING = 8;
     outs << std::string(level * SPACING, ' ');
     outs << '[' << ' ';
-    for (int i = 0; i < size; i++) {
+    for (size_t i = 0; i < size; i++) {
         outs << data[i] << " ";
     }
     outs << ']';
 }
 
+// template <typename T>
+// int binary_search(const T* data, size_t size, const T& item) {
+//     if (size >= 1)
+// }
+
 // item > all data[i]
 template <typename T>
-bool is_gt(const T data[], int size, const T& item);
+bool is_gt(const T* data, size_t size, const T& item) {
+    for (size_t i = 0; i < size; i++) {
+        if (data[i] == item || data[i] < item) {
+            return false;
+        }
+    }
+    return true;
+}
 
 // item <= all data[i]
 template <typename T>
-bool is_le(const T data[], int size, const T& item);
+bool is_le(const T* data, size_t size, const T& item) {
+    for (size_t i = 0; i < size; i++) {
+        if (!(data[i] < item) && data[i] != item) {
+            return false;
+        }
+    }
+    return true;
+}
 
 } // namespace array
 
