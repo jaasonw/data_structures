@@ -1,4 +1,5 @@
 #pragma once
+#include "array_util.h"
 #include <iostream>
 #include <vector>
 
@@ -17,7 +18,7 @@ struct Pair {
     }
     void operator+=(const T& item) { values.push_back(item); }
     void operator+=(const Pair& other) {
-        for (int i = 0; i < other.values.size(); i++) {
+        for (size_t i = 0; i < other.values.size(); i++) {
             values.push_back(other.values.at(i));
         }
     }
@@ -28,6 +29,7 @@ std::ostream& operator<<(std::ostream& outs, const Pair<Key, T>& pair) {
     outs << "{ " << pair.key << ": ";
     array::print_array(&pair.values[0], pair.values.size());
     outs << " }";
+    return outs;
 }
 
 template <typename Key, typename T>

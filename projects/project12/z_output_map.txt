@@ -1,24 +1,30 @@
-                [ { 110: 10 } ]
-        [ { 100: 10 } ]
-                [ { 80: 10 } ]
-[ { 75: 10 } ]
-                [ { 60: 10 } ]
-                [ { 30: 10 } ]
-        [ { 25: 10 } { 50: 10 } ]
-
-not const version called
-not const version called
-11
-not const version called
-not const version called
-12
-not const version called
-not const version called
-not const version called
-[ 7 9 10 ]
-        [ { 9: [ 10 ] } ]
-[ { 7: [ 20 ] } ]
-        [ { 5: [ 7 9 10 ] } ]
-
-
-Press any key to continue . . .
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: i jason 5
+[ { jason: 5 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: i jason 20
+[ { jason: 20 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: i not_jason 10
+[ { jason: 20 } { not_jason: 10 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: i bob 50
+        [ { not_jason: 10 } ]
+[ { jason: 20 } ]
+        [ { bob: 50 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: i not_bob 50
+        [ { not_bob: 50 } { not_jason: 10 } ]
+[ { jason: 20 } ]
+        [ { bob: 50 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: i tom 60
+        [ { tom: 60 } ]
+        [ { not_bob: 50 } ]
+[ { jason: 20 } { not_jason: 10 } ]
+        [ { bob: 50 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d tom
+        [ { not_bob: 50 } { not_jason: 10 } ]
+[ { jason: 20 } ]
+        [ { bob: 50 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d jason
+        [ { not_jason: 10 } ]
+[ { not_bob: 50 } ]
+        [ { bob: 50 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: d bob
+[ { not_bob: 50 } { not_jason: 10 } ]
+[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it:
