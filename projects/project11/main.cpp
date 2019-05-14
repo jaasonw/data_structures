@@ -1,7 +1,7 @@
 /*
  * Author: Jason Wong
- * Project: 
- * Purpose: 
+ * Project: BTree
+ * Purpose: Implementing a BTree
  * Notes:
  */
 #include "BTree.h"
@@ -13,13 +13,13 @@
 using namespace std;
 
 int main(int argc, char const* argv[]) {
-    btree_big_three::test_assignment_operator();
-    btree_big_three::test_copy_constructor();
+    // btree_big_three::test_assignment_operator();
+    // btree_big_three::test_copy_constructor();
     // it passes
-    btree_big_three::test_delete();
+    // btree_big_three::test_delete();
 
     BTree<int> tree;
-    interactive_test(tree);
+    btree_test::interactive_test(tree);
 
     cout << endl;
     system("pause");

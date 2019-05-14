@@ -1,13 +1,16 @@
+#pragma once
 #include <cctype>
 #include <cmath>
 #include <iostream>
 
 // a mostly generic interactive test with tweaks for the appropriate structure
+namespace btree_test {
 template <typename T>
 void interactive_test(T& tree) {
     while (true) {
         char input;
-        std::cout << "[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch   e[X]it: ";
+        std::cout << "[R]andom [G]enerate [I]nsert [D]elete [C]lear  [S]earch  "
+                     " e[X]it: ";
         std::cin >> input;
         switch (tolower(input)) {
             case 'r':
@@ -25,22 +28,13 @@ void interactive_test(T& tree) {
                 tree.insert(12);
                 tree.insert(30);
                 tree.insert(60);
-                // tree.remove(112);
-                // tree.remove(100);
-                // tree.remove(110);
-                // tree.remove(80);
-                // tree.remove(110);
-                // tree.remove(60);
-                // tree.remove(100);
-                // tree.remove(50);
                 break;
             case 'd': {
                 int input;
                 std::cin >> input;
                 try {
                     tree.remove(input);
-                }
-                catch (std::out_of_range) {
+                } catch (std::out_of_range) {
                     std::cout << "Item not in tree" << std::endl;
                 }
                 break;
@@ -73,3 +67,4 @@ void interactive_test(T& tree) {
         std::cout << tree;
     }
 }
+} // namespace BTree_test
