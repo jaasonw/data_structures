@@ -1,5 +1,5 @@
 #pragma once
-#include "BTree.h"
+#include "BPlusTree/BPlusTree.h"
 #include "Pair.h"
 
 namespace Map {
@@ -7,10 +7,60 @@ namespace Map {
 template <typename Key, typename T>
 class Map {
 private:
-    BTree<Pair<Key, T>> tree;
+    BPlusTree<Pair<Key, T>> tree;
 public:
-    Map();
+    class Iterator {
+    private:
+        typename BPlusTree<Pair<Key, T>>::Iterator tree_iter;
 
+    public:
+        friend class Map;
+
+        Iterator(typename BPlusTree<Pair<Key, T>>::Iterator it)
+            : tree_iter(it) {}
+
+        const T& operator*() { return tree_iter->value; }
+        T* operator->() { return &tree_iter.operator->()->value; }
+
+        // i++
+        Iterator operator++(int) {
+            Iterator temp = tree_iter;
+            tree_iter++;
+            return temp;
+        }
+
+        // ++i
+        Iterator operator++() {
+            tree_iter++;
+            return *this;
+        }
+        // compare to self
+        friend bool operator==(const Iterator& left, const Iterator& right) {
+            return left.tree_iter == right.tree_iter;
+        }
+        friend bool operator!=(const Iterator& left, const Iterator& right) {
+            return left.tree_iter != right.tree_iter;
+        }
+        // compare to items
+        friend bool operator==(const Iterator& left, const T& right) {
+            return *(left.tree_iter) == right;
+        }
+        friend bool operator!=(const Iterator& left, const T& right) {
+            return *(left.tree_iter) != right;
+        }
+        // compare to null
+        friend bool operator==(const Iterator& left, std::nullptr_t) {
+            return left.tree_iter == nullptr;
+        }
+        friend bool operator!=(const Iterator& left, std::nullptr_t) {
+            return left.tree_iter != nullptr;
+        }
+        bool is_null() { return !tree_iter; }
+
+        Key key() { return tree_iter->key; }
+    };
+
+    Map();
     // access
     T get(const Key& key) const;
     T& at(const Key& key);
@@ -23,11 +73,20 @@ public:
     void erase(const Key& key);
     void clear() { tree.clear_tree(); }
 
+    // Iterators
+    Iterator begin() const;
+    Iterator end() const;
+    // returns an iterator to the first element whose key is not less than entry
+    Iterator lower_bound(const Key& entry) const;
+    // returns an iterator to the first element whose key is greater than entry
+    Iterator upper_bound(const Key& entry) const;
+
     // operations
     bool contains(const Key& key, const T& value);
+    bool contains(const Key& key);
 
     friend std::ostream& operator<<(std::ostream& outs, const Map<Key,T>& map) {
-        map.tree.print_tree();
+        map.tree.print_as_list();
         return outs;
     }
 };
@@ -42,28 +101,30 @@ void Map<Key, T>::set(const Key& key, const T& value) {
 
 template <typename Key, typename T>
 T& Map<Key, T>::operator[](const Key& key) {
-    return tree.get(Pair<Key, T>(key, T())).value;
+    if (tree.search(Pair<Key, T>(key, T())) == nullptr)
+        tree.insert(Pair<Key, T>(key, T()));
+    return tree.search(Pair<Key, T>(key, T()))->value;
 }
 
 template <typename Key, typename T>
 const T& Map<Key, T>::operator[](const Key& key) const {
-    return tree.get(Pair<Key, T>(key, T())).value;
+    return tree.search(Pair<Key, T>(key, T()))->value;
 }
 
 template <typename Key, typename T>
 T& Map<Key, T>::at(const Key& key) {
-    return tree.get(Pair<Key, T>(key, T())).value;
+    return tree.search(Pair<Key, T>(key, T()))->value;
 }
 
 template <typename Key, typename T>
 T Map<Key, T>::get(const Key& key) const {
-    return tree.get(Pair<Key, T>(key, T())).value;
+    return tree.search(Pair<Key, T>(key, T()))->value;
 }
 
 template <typename Key, typename T>
 const T& Map<Key, T>::at(const Key& key) const {
     try {
-        return tree.get(key);
+        return tree.search(key);
     } catch (std::out_of_range()) {
         throw std::out_of_range("Key not found");
     }
@@ -75,8 +136,36 @@ void Map<Key, T>::erase(const Key& key) {
 }
 template <typename Key, typename T>
 bool Map<Key, T>::contains(const Key& key, const T& value) {
-    auto search = tree.find(key);
+    auto search = tree.search(key);
     return search != nullptr && search->value == value;
+}
+
+template <typename Key, typename T>
+bool Map<Key, T>::contains(const Key& key) {
+    auto search = tree.search(key);
+    return search != nullptr;
+}
+
+template <typename Key, typename T>
+typename Map<Key, T>::Iterator Map<Key, T>::begin() const {
+    return Iterator(tree.begin());
+}
+
+template <typename Key, typename T>
+typename Map<Key, T>::Iterator Map<Key, T>::end() const {
+    return Iterator(tree.end());
+}
+
+template <typename Key, typename T>
+typename Map<Key, T>::Iterator
+Map<Key, T>::lower_bound(const Key& entry) const {
+    return Iterator(tree.lower_bound(entry));
+}
+
+template <typename Key, typename T>
+typename Map<Key, T>::Iterator
+Map<Key, T>::upper_bound(const Key& entry) const {
+    return Iterator(tree.upper_bound(entry));
 }
 
 } // namespace Map

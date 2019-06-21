@@ -6,21 +6,22 @@
 template <typename T>
 class Queue {
 private:
-    Node<T>* _data;
-    Node<T>* _data_back;
+    LinkedList::Node<T>* _data;
+    LinkedList::Node<T>* _data_back;
     int _size;
 
 public:
     class Iterator {
     private:
-        Node<T>* _node;
+        LinkedList::Node<T>* _node;
 
     public:
         friend class Queue;
-        Iterator(Node<T>* node = NULL) { this->_node = node; }
+        Iterator(LinkedList::Node<T>* node = NULL) { this->_node = node; }
         T& operator*() { return _node->_item; }
+        T* operator->() { return &_node->item; }
 
-        friend Iterator operator++(Iterator& it, int unused) {
+        friend Iterator operator++(Iterator& it, int) {
             Iterator hold;
             hold = it;
             it._node = it._node->_next;
@@ -35,6 +36,12 @@ public:
         }
         friend bool operator==(const Iterator& left, const Iterator& right) {
             return left._node == right._node;
+        }
+        friend bool operator!=(const Iterator& left, std::nullptr_t) {   
+            return left._node != nullptr;
+        }
+        friend bool operator==(const Iterator& left, std::nullptr_t) {
+            return left._node == nullptr;
         }
     };
 
@@ -109,8 +116,8 @@ T Queue<T>::pop() {
         this->_size--;
         return LinkedList::delete_head(this->_data);
     }
-    assert("cannot pop from an empty Queue" == "");
-    return NULL;
+    assert(false && "cannot pop from an empty Queue");
+    return T();
 }
 
 // returns an iterator to the front of queue

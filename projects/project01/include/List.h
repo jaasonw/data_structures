@@ -6,20 +6,20 @@
 template <typename T>
 class List {
 private:
-    Node<T>* _data;
-    Node<T>* _data_back;
+    LinkedList::Node<T>* _data;
+    LinkedList::Node<T>* _data_back;
     int _size;
 
 public:
     class Iterator {
     private:
-        Node<T>* _node;
+        LinkedList::Node<T>* _node;
     public:
         friend class List;
-        Iterator(Node<T>* node = NULL) { this->_node = node; }
+        Iterator(LinkedList::Node<T>* node = NULL) { this->_node = node; }
         T& operator*() { return _node->_item; }
 
-        friend Iterator operator++(Iterator& it, int unused) {
+        friend Iterator operator++(Iterator& it, int) {
             Iterator hold;
             hold = it;
             it._node = it._node->_next;
@@ -51,7 +51,7 @@ public:
 
     void insert(int pos, const T& item);
     void insert_after(Iterator pos, const T& item);
-    void insert_after(Node<T>* pos, const T& item);
+    void insert_after(LinkedList::Node<T>* pos, const T& item);
 
     bool empty() const { return _size == 0; };
     int size() const { return _size; };
@@ -124,8 +124,8 @@ T List<T>::pop_front() {
         this->_size--;
         return LinkedList::delete_head(this->_data);
     }
-    assert("cannot pop from an empty list" == "");
-    return NULL;
+    assert(false && "cannot pop from an empty list");
+    return T();
 }
 
 // returns an iterator to the 1st occurance of item
@@ -154,10 +154,10 @@ void List<T>::insert(int pos, const T& item) {
         this->push_front(item);
         return;
     }
-    Node<T>*walk = this->_data;
+    LinkedList::Node<T>*walk = this->_data;
     for (int i = 0; i < pos; i++, walk = walk->_next) {
         if (walk == NULL && i != pos - 1) {
-            assert("inserted element at invalid position" == "");
+            assert(false && "inserted element at invalid position");
         }
         // insert at end edge case
         if (walk == NULL && i == pos - 1) {
@@ -179,7 +179,7 @@ void List<T>::insert_after(Iterator pos, const T& item) {
 
 // insert an item after a node
 template <typename T>
-void List<T>::insert_after(Node<T>* pos, const T& item) {
+void List<T>::insert_after(LinkedList::Node<T>* pos, const T& item) {
     LinkedList::insert_after(this->_data, pos, item);
 }
 
